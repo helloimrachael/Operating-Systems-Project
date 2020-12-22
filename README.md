@@ -1,17 +1,5 @@
 # Operating-Systems-Project
 
-Indice
-1.	Introduzione
-2.	Libreria
-3.	Supervisor
-4.	Server
-5.	Client
-6.	Makefile
-7.	Test
-8.	Misura
- 
-
-
 1.	Introduzione
  Per questo progetto è stato chiesto di realizzare un sistema per l’out-of- band signaling, ovvero di realizzare un sistema client-server, in cui i client possiedono un codice secret, il secret, e vogliono comunicarlo ad un server centrale, senza però farlo intercettare da chi sta catturando i dati in transito. In questo progetto avremo n client, k server e 1 supervisor. Per primo viene lanciato il supervisor, avente come argomento il parametro k che indica il numero di server che devono essere attivati. Il supervisor creerà quindi k processi distinti. Gli n client verranno lanciati indipendentemente, ciascuno in tempi diversi.
 
